@@ -8,7 +8,8 @@ import { WeddingPlanners } from "../pages/Weddingplanners/wedplanassets";
 export const AppContext = createContext();
 
 const AppContextProvider = ({ children }) => {
-  const backendUrl = import.meta.env.VITE_BACKEND_URL;
+  const backendUrl ="https://weddings-paradise.onrender.com";
+  // const backendUrl = import.meta.env.VITE_BACKEND_URL;
   const [venues, setVenues] = useState([]);
   const [token, setToken] = useState(localStorage.getItem("token") || null);
   const [userData, setUserData] = useState(null);
