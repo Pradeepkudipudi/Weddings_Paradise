@@ -25,8 +25,12 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import App from './App.jsx';
 // import { AppContext } from './context/Appcontext.jsx';
-import { AppContext } from './Context/Appcontext.jsx'
-import AppContextProvider from './Context/Appcontext.jsx'
+import AppContextProvider from './Context/appcontext.jsx';
+import { AppContext } from './Context/appcontext.jsx';
+
+
+// import { AppContext } from './Context/Appcontext.jsx'
+// import AppContextProvider from './Context/Appcontext.jsx'
 
 // import AppContextProvider from './context/Appcontext.jsx'; // Correct import path
 
