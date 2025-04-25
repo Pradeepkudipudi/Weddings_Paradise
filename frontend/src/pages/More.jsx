@@ -21,7 +21,7 @@
 
 import React, { useContext, useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { AppContext } from "../context/Appcontext";
+import { AppContext } from "../Context/appcontext.jsx";
 
 import { Link } from "react-router-dom";
 import { SiIndigo } from "react-icons/si";

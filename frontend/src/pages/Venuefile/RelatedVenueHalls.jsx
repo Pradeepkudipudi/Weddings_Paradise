@@ -92,7 +92,7 @@
 
 import React, { useContext, useEffect, useState } from "react";
 //import { AppContext } from "../../Context/appcontext";
-import { AppContext } from "../../context/Appcontext";
+import { AppContext } from "../../Context/appcontext.jsx";
 import { useNavigate } from "react-router-dom";
 
 const RelatedVenHalls = ({ city, VenId }) => {

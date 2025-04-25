@@ -3,7 +3,7 @@
 // import './index.css'
 // import App from './App.jsx'
 // import { BrowserRouter } from 'react-router-dom'
-// import AppcontextProvider from './Context/appcontext.jsx'
+// import AppcontextProvider from './.jsx'
 
 // createRoot(document.getElementById('root')).render(
 //   <BrowserRouter>
@@ -26,7 +26,7 @@ import { BrowserRouter } from 'react-router-dom';
 import App from './App.jsx';
 // import { AppContext } from './context/Appcontext.jsx';
 import AppContextProvider from './Context/appcontext.jsx';
-import { AppContext } from './Context/appcontext.jsx';
+// import { AppContext } from './Context/appcontext.jsx';
 
 
 // import { AppContext } from './Context/Appcontext.jsx'
