@@ -146,6 +146,7 @@ function App() {
         <SubNavbar token={token} setToken={setToken} />
       )}
 
+
       {/* Route Definitions */}
       <Routes>
         {/* Home Route with Components */}
