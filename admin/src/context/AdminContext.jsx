@@ -152,7 +152,7 @@ export const AdminContext = createContext();
 
 export const AdminContextProvider = ({ children }) => {
   const [aToken, setATokenState] = useState('');
-  const backendUrl = import.meta.env.VITE_BACKEND_URL;
+  const backendUrl = "https://weddings-paradise.onrender.com";
   const [venues, setVenues] = useState([]);
  const [bookings,setBookings] = useState([])
 
